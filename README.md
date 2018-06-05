@@ -9,37 +9,12 @@ Galaksio provides a simple but complete UI for using Galaxy for biologists that 
 Using the application, users can run any workflow implemented in the associated Galaxy instance in just few *clicks*.
 Besides, the rich user interface allows customizing the execution, uploading the necessary files, downloading the results, and executing several workflows simultaneously in the background.
 
-### Quick start
-First install all dependencies. For example, the instructions for an Ubuntu 16.04 server would be:
-```bash
-apt-get update
-apt-get install -y python-pip unzip wget
-pip install requests bioblend flask fpdf
-```
+Klingström T, Hernández-de-diego R, Collard T, Bongcam-Rudloff E. 2017. _Galaksio, A User Friendly Workflow-Centric Front End For Galaxy_. EMBnet.Journal. 23. e897. 10.14806/ej.23.0.897. [http://dx.doi.org/10.14806/ej.23.0.897](http://dx.doi.org/10.14806/ej.23.0.897).
 
-Download and extract the [latest version](https://github.com/fikipollo/galaksio.git) of Galaksio from the GitHub repository.
-```bash
-wget https://github.com/fikipollo/galaksio/archive/master.zip
-unzip galaksio-latest.zip
-```
+# This reposotory has being moved to [https://github.com/TKlingstrom/galaksio](https://github.com/TKlingstrom/galaksio).
 
-Launch the Flask server. Your new Galaksio instance will be listening to port 8081.
-```bash
-galaksio-latest/server/run.sh --start
-```
-
-By default Galaksio is configured to work with the official [Galaxy](https://usegalaxy.org) instance.This and other options can be customized through the web application. The first time that you access to your Galaksio instance you will need to configure some of the main settings.
-
-## Documentation
-Documentation for the project, including installation instructions, can be found at the ReadTheDocs platform: [http://galaksio.readthedocs.io/en/latest/](http://galaksio.readthedocs.io/en/latest/).
-
-## Docker for Galaksio
-The Galaksio Docker Image is an easy distributable full-fledged Galaksio installation.
-The docker image for Galaksio can be found in the [docker hub](https://hub.docker.com/r/fikipollo/galaksio/). However, you can download the Dockerfile and other files from the [Github repository](https://github.com/fikipollo/galaksio-docker)
 
 ## About
-Galaksio has been developed by the [SLU Global Bioinformatics Centre](http://sgbc.slu.se/) at the Sveriges lantbruksuniversitet (Swedish University of Agricultural Sciences).
-This project is part of the B3Africa Project [http://www.b3africa.org/](http://www.b3africa.org/), which has received funding under grant agreement nr 654404 from the European Union’s Horizon 2020 research and innovation programme.
-**Galaksio** application is distributed under **GNU General Public License, Version 3.**.
+Galaksio has been developed by the [SLU Global Bioinformatics Centre](http://sgbc.slu.se/) at the Sveriges lantbruksuniversitet (Swedish University of Agricultural Sciences). This project is part of the B3Africa Project [http://www.b3africa.org/](http://www.b3africa.org/), which has received funding under grant agreement nr 654404 from the European Union’s Horizon 2020 research and innovation programme.
 
-<img style="display:block; margin:auto;" src="https://user-images.githubusercontent.com/11427394/30154858-76cd4d9a-93bb-11e7-8834-c2d3dbf95ba3.png" title="Logos"/>
+**Galaksio** application is distributed under **GNU General Public License, Version 3.**.
